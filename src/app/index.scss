@@ -12,6 +12,19 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 // bower:scss
 // endbower
 
+html {
+  height: 1000%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body div {
+  height: 100%;
+  width: 100%;
+}
 
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
