@@ -3,8 +3,6 @@
   'use strict';
 
   angular
-    .module('electitweet')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
+    .module('electitweet');
 
 })();
