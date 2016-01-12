@@ -2,3 +2,19 @@ img {
   width: 100%;
   height: 100%;
 }
+
+svg .state {
+    stroke-width: 2;
+    stroke: #fff;
+
+    -webkit-transition: stroke 0.5s, stroke-width 0.5s;
+    -o-transition: stroke 0.5s, stroke-width 0.5s;
+    transition: stroke 0.5s, stroke-width 0.5s;
+}
+
+svg .state:hover, .state.active, .circle:hover, .circle.active {
+    cursor: pointer;
+    stroke-width: 4;
+    stroke: #000;
+}
+
