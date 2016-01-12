@@ -1,1 +1,12 @@
-<tweet-map></tweet-map>
+<div class="container">
+  <tweet-map></tweet-map>
+  <p>
+    <button ng-click="generateFakeData()" class="btn btn-block btn-default">Generate Test Color Data</button>
+  </p>
+  <div class="regionlist">
+    <div ng-repeat="(key,region) in main.dummyData">
+      <div>{{key}}</div>
+      <div>{{region.value | number}}</div>
+    </div>
+  </div>
+</div>
